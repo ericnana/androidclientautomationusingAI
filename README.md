@@ -7,20 +7,17 @@ The main goal is to be able to get away from the traditional element location by
 offered from  jlipps (see https://github.com/testdotai/appium-classifier-plugin)
 
 What I have installed and used:
+1) latest stable ubuntu verison  and a terminal
+2) node(https://nodejs.org/en/) and npm
+3) appium:(downloaded it from the source-http://appium.io/docs/en/contributing-to-appium/appium-from-source/index.html-) and read how appium is installed.
+4) appium-doctor:(went to -https://github.com/appium/appium-doctor- to install appium tool) and cloned it and afterwards did (cd appium-doctor -> npm install --> npm run build --> node. ). Please check the following link: http://appium.io/docs/en/contributing-to-appium/appium-from-source/index.html
 
-latest stable ubuntu verison  and a terminal
-node(https://nodejs.org/en/)
-npm
-appium:(downloaded it from the source-http://appium.io/docs/en/contributing-to-appium/appium-from-source/index.html-) and read how appium is installed.
+5) Install android-studio
 
-appium-doctor:(went to -https://github.com/appium/appium-doctor- to install appium tool) and cloned it and afterwards did (cd appium-doctor -> npm install --> npm run build --> node. ). Please check the following link: http://appium.io/docs/en/contributing-to-appium/appium-from-source/index.html
-
-Install android-studio
-
-Run from command line ./appium-doctor.js within appium-doctor folder you have cloned previously to see what is beeded or not that needs to be installed or fixed.
+6) Run from command line ./appium-doctor.js within appium-doctor folder you have cloned previously to see what is beeded or not that needs to be installed or fixed.
 
 
-In my case under ~/.bashrc you need to have the following set: 
+7) Go to  ~/.bashrc you need to have the following set: 
 
 #Nodejs
 
@@ -47,4 +44,4 @@ export PATH=$PATH:$ANDROID_HOME/bundletool
 
 export OPENCV4NODEJS_AUTOBUILD_OPENCV_VERSION=4.1.0
 
-Go to the README.md of https://github.com/testdotai/appium-classifier-plugin and try the rest
+8) Go to the README.md of https://github.com/testdotai/appium-classifier-plugin and try the rest
