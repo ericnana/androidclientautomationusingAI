@@ -46,5 +46,5 @@ export OPENCV4NODEJS_AUTOBUILD_OPENCV_VERSION=4.1.0
 
 8) Install selenium and start it as well https://www.npmjs.com/package/selenium-standalone
 9) Go to the README.md of https://github.com/testdotai/appium-classifier-plugin and try the rest
-10) Start appium (node . -a localhost -p 4723)
+10) Start appium (node . -a localhost -p 4723). 4723 is the default port.
 11) To run the test go to the folder where the test is located in the terminal and do: mocha --timeout 30000 mytest.js. (You might have to install mocha by doing the following :npm install -g mocha)
