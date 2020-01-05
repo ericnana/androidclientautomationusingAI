@@ -1,4 +1,4 @@
-# clientautomationusingAI
+# androidclientautomationusingAI
 
 Automation of clients using ai technique.
 The first attempt is, will be on an android client afterwards web client and finally iOS.
