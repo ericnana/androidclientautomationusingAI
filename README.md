@@ -6,7 +6,7 @@ Since it is at its early stage things might go wrong and my be difficult to acco
 The main goal is to be able to get away from the traditional element location by rather using the appium classifier plugin
 offered from  jlipps (see https://github.com/testdotai/appium-classifier-plugin)
 
-What I have installed and used:
+What I have installed and used for android client automation:
 1) latest stable ubuntu verison  and a terminal
 2) node(https://nodejs.org/en/) and npm
 3) appium:(downloaded it from the source-http://appium.io/docs/en/contributing-to-appium/appium-from-source/index.html-) and read how appium is installed.
@@ -44,4 +44,7 @@ export PATH=$PATH:$ANDROID_HOME/bundletool
 
 export OPENCV4NODEJS_AUTOBUILD_OPENCV_VERSION=4.1.0
 
-8) Go to the README.md of https://github.com/testdotai/appium-classifier-plugin and try the rest
+8) Install selenium and start it as well https://www.npmjs.com/package/selenium-standalone
+9) Go to the README.md of https://github.com/testdotai/appium-classifier-plugin and try the rest
+10) Start appium (node . -a localhost -p 4723)
+11) To run the test go to the folder where the test is located in the terminal and do: mocha --timeout 30000 mytest.js. (You might have to install mocha by doing the following :npm install -g mocha)
