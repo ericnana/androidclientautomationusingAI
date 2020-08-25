@@ -14,7 +14,7 @@ What I have installed and used for android client automation: Please avoid using
 
 5) Install android-studio
 
-6) Run from command line ./appium-doctor.js within appium-doctor folder you have cloned previously to see what is beeded or not that needs to be installed or fixed.
+6) Run from command line ./appium-doctor.js within appium-doctor folder you have cloned previously to see what is needed or not that needs to be installed or fixed.
 
 
 7) Go to  ~/.bashrc you need to have the following set: 
