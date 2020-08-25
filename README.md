@@ -7,7 +7,7 @@ The main goal is to be able to get away from the traditional element location by
 offered from  jlipps (see https://github.com/testdotai/appium-classifier-plugin)
 
 What I have installed and used for android client automation: Please avoid using sudo even though it is really temptative especially when trying to install appium
-1) latest stable ubuntu verison  and a terminal
+1) latest stable ubuntu version  and a terminal
 2) node(https://nodejs.org/en/) and npm
 3) appium:(downloaded it from the source-http://appium.io/docs/en/contributing-to-appium/appium-from-source/index.html-) and read how appium is installed.
 4) appium-doctor:(went to -https://github.com/appium/appium-doctor- to install appium tool) and cloned it and afterwards did (cd appium-doctor -> npm install --> npm run build --> node. ). Please check the following link: http://appium.io/docs/en/contributing-to-appium/appium-from-source/index.html
