@@ -19,20 +19,20 @@ What I have installed and used for android client automation: Please avoid using
 
 7) Go to  ~/.bashrc you need to have the following set: 
 
-#Nodejs
+# Nodejs
 
 VERSION=v12.14.0
 DISTRO=linux-x64
 export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH
 
 
-#JAVA
+# JAVA
 
 export JAVA_HOME="/usr/lib/jvm/java-14-openjdk-amd64/bin"
 export PATH=${JAVA_HOME}/bin:$PATH
 
 
-#AndroidStudio
+# AndroidStudio
 
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools
@@ -40,7 +40,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/bundletool
 
 
-#OpenCV
+# OpenCV
 
 export OPENCV4NODEJS_AUTOBUILD_OPENCV_VERSION=4.1.0
 
