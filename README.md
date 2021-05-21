@@ -2,7 +2,7 @@
 
 Automation of clients using ai technique.
 The first attempt is, will be on an android client afterwards web client and finally iOS.
-Since it is at its early stage things might go wrong and my be difficult to accomplish.
+Since it is at its early stage things might go wrong and may be difficult to accomplish.
 The main goal is to be able to get away from the traditional element location by rather using the appium classifier plugin
 offered from  jlipps (see https://github.com/testdotai/appium-classifier-plugin)
 
